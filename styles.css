@@ -24,9 +24,6 @@ body a{
 @media (min-width: 768px) {
   .h-md-100 { height: 100vh; }
 }
-.btn-round { 
-  border-radius: 30px; 
-}
 .bg-indigo {
    background-image: url(images/arash-asghari-ZnssDSmy9Ho-unsplash.jpg); 
    background-size: cover;
@@ -44,8 +41,16 @@ body a{
   padding-bottom: 200px;
 }
 
-.btn {
-  outline-color: #443730;
+#mainbtn {
+  border: 1.5px solid #796553;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 400;
+  color: #796553;
+  background-color: white;
+}
+
+#mainbtn:hover {
+  color: #DAF7A6;
 }
 
 .jumbotron {
