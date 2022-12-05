@@ -1,13 +1,12 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 body a{
   text-decoration: none;
   color: black;
 }
 
-#indexjumbo{
-  background-image: url(images/pawel-czerwinski-dUPwMFSIKEE-unsplash\ \(1\).jpg);
-  background-size: cover;
-  min-height: 70vh;
-}
 
 .btn-primary {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -21,11 +20,35 @@ body a{
   color:green;
   text-decoration: none;
 }
+ 
+@media (min-width: 768px) {
+  .h-md-100 { height: 100vh; }
+}
+.btn-round { 
+  border-radius: 30px; 
+}
+.bg-indigo {
+   background-image: url(images/arash-asghari-ZnssDSmy9Ho-unsplash.jpg); 
+   background-size: cover;
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.text-cyan { color: #35bdff; }
 
-#contactjumbo {
-  background-image: url(images/arash-asghari-ZnssDSmy9Ho-unsplash.jpg);
-  background-size: contain;
+.hero-background-img{
+  background-image: url("images/pawel-czerwinski-dUPwMFSIKEE-unsplash\ \(1\).jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.btn {
+  outline-color: #443730;
+}
+
+.jumbotron {
+  padding: 0 !important;
+  margin: 0 !important;
 }

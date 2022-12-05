@@ -1,0 +1,16 @@
+
+
+
+
+<div class="p-5 text-center bg-image" style="background-image: url(images/pawel-czerwinski-dUPwMFSIKEE-unsplash\ \(1\).jpg); background-size: cover;
+        height: 600px;">
+        
+        <div class="mask">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3" style="text-shadow: 1px 1px #DAF7A6;">floconut</h1>
+              <a class="btn btn-outline-light btn-lg" href="products.html" role="button" style="font-family: Roboto Condensed; color: #443730">Browse</a>
+            </div>
+          </div>
+        </div>
+      </div>

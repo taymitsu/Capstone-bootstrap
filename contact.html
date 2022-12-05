@@ -5,12 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel=“stylesheet” href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
   <title>pomade vibes.</title>
 </head>
 
 
 <body>
+  <!--NAV BAR-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
     <a href="#" class="navbar-brand"></a>
     <div class="navbar-nav">
@@ -21,58 +24,43 @@
     </div>
   </nav>
 
+  <!-- split screen, image/form - dynamic -->
+  <div class="d-md-flex h-md-100 align-items-center">
 
-  <div class="jumbotron text-right" id="contactjumbo">
-    <h1>got something to say?<br> drop us a line</h1>
-  </div>
+    <!-- First Half -->
+    <div class="col-md-6 p-0 bg-indigo h-md-100">
+        <div class="text-white d-md-flex align-items-center h-100 p-5 text-center">
+            <div class="logoarea pt-5 pb-5">
+            </div>
+        </div>
+    </div>
 
-  <!-- FOOTER -->
-  <footer class="bg-dark text-center text-black">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-    </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  
+    <!-- Second Half -->
+    <div class="col-md-6 p-0 bg-white h-md-100 loginarea">
+        <div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
+          <form>
+            <label>
+                <span>First Name</span>
+                <input type="text">
+            </label>
+            <label>
+                <span>Last Name</span>
+                <input type="text">
+            </label>
+            <label>
+                <span>Email Address</span>
+                <input type="text">
+            </label>
+            <label>
+                <span>Phone Number</span>
+                <input type="number">
+            </label>
+            <label>
+                <button type="submit">Send</button>
+            </label>
+        </form>
+        </div>
+    </div>  
+</div>
 </body>
 </html>
