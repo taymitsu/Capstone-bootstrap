@@ -58,3 +58,25 @@ body a{
   padding: 0 !important;
   margin: 0 !important;
 }
+
+ul.menu-simple li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.footer{
+  height: 23vh;
+  background-size: cover;
+}
+
+ul.menu-simple{
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+.carousel-item{
+  height: 50vh;
+  position: relative;
+}
