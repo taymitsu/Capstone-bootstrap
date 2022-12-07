@@ -79,4 +79,14 @@ ul.menu-simple{
 .carousel-item{
   height: 50vh;
   position: relative;
+  background-image: url(images/birgith-roosipuu-NTM5kxJ5LNY-unsplash.jpg);
+}
+
+#form{
+  position: absolute;
+  text-align: center;
+}
+
+#carousel-caption{
+  display: inline-block;
 }

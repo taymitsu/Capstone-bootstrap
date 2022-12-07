@@ -14,16 +14,17 @@
 
 <body>
   <!--NAV BAR-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
-    <a href="#" class="navbar-brand"></a>
-    <div class="navbar-nav">
-      <a href="index.html" class="nav-item nav-link">home</a>
-      <a href="products.html" class="nav-item nav-link">products</a>
-      <a href="about.html" class="nav-item nav-link">about</a>
-      <a href="contact.html" class="nav-item nav-link">contact</a>
-    </div>
-  </nav>
-
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+      <a href="#" class="navbar-brand"></a>
+      <div class="navbar-nav">
+        <a href="index.html" class="nav-item nav-link">home</a>
+        <a href="products.html" class="nav-item nav-link">products</a>
+        <a href="about.html" class="nav-item nav-link">about</a>
+        <a href="contact.html" class="nav-item nav-link">contact</a>
+      </div>
+    </nav>
+  </header>    
   <!-- split screen, image/form - dynamic -->
   <div class="d-md-flex h-md-100 align-items-center">
 
@@ -36,30 +37,62 @@
 
     <!-- Second Half -->
     <div class="col-md-6 p-0 bg-white h-md-100 loginarea">
-        <div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
-          <form>
-            <label>
-              <span>First Name</span>
-              <input type="text">
-            </label>
-            <label>
-              <span>Last Name</span>
-              <input type="text">
-            </label>
-            <label>
-              <span>Email Address</span>
-              <input type="text">
-            </label>
-            <label>
-              <span>Phone Number</span>
-              <input type="number">
-            </label>
-            <label>
-              <button type="submit">Send</button>
-            </label>
-          </form>
-        </div>
-      </div>  
+      <div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center" id="form">
+        <form>
+          <label>
+            <h1 style="font-family: 'Bodoni Moda', serif; color: white; font-style: italic; text-shadow: 3px 3px #DAF7A6; font-size: 5rem;">drop us a line</h1>
+          </label>
+          <label>
+            <span>first name</span>
+            <input type="text">
+          </label>
+          <label>
+            <span>last name</span>
+            <input type="text">
+          </label>
+          <label>
+            <span>email address</span>
+            <input type="text">
+          </label>
+          <label>
+            <span>phone number</span>
+            <input type="number">
+          </label>
+          <label>
+            <span>what's on your mind?</span>
+            <input type="text-field">
+          </label>
+          <label>
+            <button type="submit" style="border: 1.5px solid #796553;
+            font-family: 'Bodoni Moda', serif;
+            font-weight: 400;
+            color: #DAF7A6;
+            background-color: white;">submit</button>
+          </label>
+        </form>
+      </div>
+    </div>  
   </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="container">
+        <div class="jumbotron text-center" style="background-color: white;">
+          <div class="d-flex justify-content-center">
+            <form action="#" class="form-inline">
+              <h5>join our tribe</h5><input type="text" class="form-control mb-2 mr-sm-2" placeholder="e-mail"/>
+              <button type="submit" class="btn btn-primary mb-2">join</button>
+            </form>
+          </div>
+        </div>
+          <ul class="menu-simple">
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
