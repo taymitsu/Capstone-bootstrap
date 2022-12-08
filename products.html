@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <title>Document</title>
+  <script src="https://kit.fontawesome.com/46aa719f8b.js" crossorigin="anonymous"></script>
+  <title>products</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
@@ -15,14 +16,71 @@
       <a href="index.html" class="nav-item nav-link">home</a>
       <a href="products.html" class="nav-item nav-link">products</a>
       <a href="about.html" class="nav-item nav-link">about</a>
-      <a href="contact.html" class="nav-item nav-link">contact</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        reach out
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="contact.html">contact</a>
+            <a class="dropdown-item" href="newsletter.html">newsletter</a>
+          </div>
+      </li>
     </div>
-  </nav>
+  </nav> 
 
-  <!-- Jumbo, main -->
-  <div class="jumbotron text-left" style="background-color: white;">
-    <h1 style="font-family: 'Bodoni Moda', serif;">all natural products.</h1>
+  <!--Main JUMBOTRON-->
+  <div class="jumbotron text-center">
+    <div class="hero-background-img">
+      <h1 style="font-family: 'Bodoni Moda', serif; color: white; font-style: italic; text-shadow: 3px 3px #DAF7A6; font-size: 7rem;">all natural</h1>
+      <a href="newsletter.html" class="btn btn-outline-light btn-lg" id="mainbtn">stay up to date with our drops</a>
+    </div>
   </div>
-  
+
+  <section>
+    <div class="container mb-5 mt-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>regular hold</h3>
+          <img src="products.jpg" alt="coco product" class="img-fluid rounded">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="col-lg-4">
+          <h3>Reduces Stress</h3>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="responsive-item" src="https://www.youtube.com/embed/7-Ue2mXTe4s" allowfullscreen></iframe>
+          </div>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="col-lg-4">
+          <h3>Productivity</h3>
+          <img src="products.jpg" alt="coco product" class="img-fluid rounded">
+          <p sclass="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="jumbotron text-center" style="background-color: white;">
+          <div class="d-flex justify-content-center">
+            <form action="#" class="form-inline">
+              <h5>join our tribe</h5><input type="text" class="form-control mb-2 mr-sm-2" placeholder="e-mail"/>
+              <button type="submit" class="btn btn-primary mb-2">join</button>
+            </form>
+          </div>
+        </div>
+          <ul class="menu-simple">
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
 </body>
 </html>
